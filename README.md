@@ -1,6 +1,5 @@
 Ruby on Rails / intermediate exercice / Heroku deployment
 
-
 Objective :
 1. Creating a Rails application based on the CRUD method
 2. Deploying the application on Heroku
@@ -9,6 +8,8 @@ Objective :
 The exercice :
 It aims to create an application based on our community gossips. Indeed, a lot of things can happen in 3 months @ The Hacking Project.
 
+
+Heroku application : https://morning-headland-53327.herokuapp.com/
 
 Follow me on Github : https://github.com/kevinmainaud
 
