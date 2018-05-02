@@ -1,0 +1,25 @@
+<h1> Editer un gossip </h1>
+
+
+<%= form_for @gossip do |f|%>
+
+<div class="from-group">
+
+<label> Titre du gossip </label>
+
+<%= f.text_field :content %>
+
+
+<label> Nom de l'auteur </label>
+
+<%= f.text_field :anonymous_author %>
+
+<%= f.submit "Editer"%>
+
+</div>
+
+<% end %>
+
+<p>
+<a href="<%= gossip_path(@gossip.id) %>" class="btn btn-danger" data-confirm="Etes-vous sûr de supprimer ce potin ?" data-method="delete">Supprimer le Gossip</a>
+</p>
